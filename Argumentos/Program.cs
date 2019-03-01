@@ -9,8 +9,9 @@ namespace Argumentos
             for (int n = 0; n < args.Length; n++)
             {
                 Console.WriteLine(args[n]);
+                Console.WriteLine("");
             }
-            Console.ReadKey();
+           // Console.ReadKey();
         }
     }
 }
