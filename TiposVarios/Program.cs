@@ -15,7 +15,8 @@ namespace TiposVarios
             double f = -7;
             bool g = true;
             bool h = false;
-
+            string i = "Tab/t numa string normal";
+            string j = @"C:\Users\Andre\Documents" + " <-string verbatin";
 
             //Imprime o valor da variavel a
             Console.WriteLine("2 inteiros");
@@ -38,8 +39,10 @@ namespace TiposVarios
             Console.WriteLine("");
             Console.WriteLine(h);
             Console.WriteLine("");
-            Console.WriteLine();
-
+            Console.WriteLine(i);
+            Console.WriteLine("");
+            Console.WriteLine(j);
+            Console.WriteLine("");
             Console.WriteLine("Press Enter to close");
             Console.ReadKey();
         }
