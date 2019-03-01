@@ -14,6 +14,7 @@ namespace TiposVarios
             ulong e = 22UL;
             decimal f = 21m;
             double g = 41;
+            char h = '\u00A9';
 
             //Imprime o valor da variavel a
             Console.WriteLine(a);
@@ -29,6 +30,8 @@ namespace TiposVarios
             Console.WriteLine(f);
             Console.WriteLine("");
             Console.WriteLine(g);
+            Console.WriteLine("");
+            Console.WriteLine(h);
             Console.WriteLine("");
             Console.WriteLine("Press Enter to close");
             Console.ReadKey();
