@@ -8,6 +8,10 @@ namespace OlaMundo
 {
     class Program
     {
+        /// <summary>
+        /// Método principal (main)
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             //Sou um comentario
