@@ -8,13 +8,9 @@ namespace TiposVarios
         {
             //Cria variavel tipo int de nome a com valor -10
             int a = -10;
-            float b = 54.0f;
-            uint c = 2U;
-            long d = 89L;
-            ulong e = 22UL;
-            decimal f = 21m;
-            double g = 41;
-            char h = '\u00A9';
+            int b = 54;
+            char c = '\u00A9';
+            char d = '\u0026';
 
             //Imprime o valor da variavel a
             Console.WriteLine(a);
@@ -24,14 +20,6 @@ namespace TiposVarios
             Console.WriteLine(c);
             Console.WriteLine("");
             Console.WriteLine(d);
-            Console.WriteLine("");
-            Console.WriteLine(e);
-            Console.WriteLine("");
-            Console.WriteLine(f);
-            Console.WriteLine("");
-            Console.WriteLine(g);
-            Console.WriteLine("");
-            Console.WriteLine(h);
             Console.WriteLine("");
             Console.WriteLine("Press Enter to close");
             Console.ReadKey();
