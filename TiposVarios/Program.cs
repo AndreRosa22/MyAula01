@@ -17,6 +17,10 @@ namespace TiposVarios
             bool h = false;
             string i = "Tab\t numa string normal";
             string j = @"C:\Users\Andre\Documents" + " <-string verbatin";
+            string k = "Uma " + "String " + "Concatenada";
+            k += " (Texto adicionado depois)";
+            string l = $"string interpolada. Valor {a} + valor {b} e igual a {a + b}";
+            string m = $@"String verbatin interpolada {a}";
 
             //Imprime o valor da variavel a
             Console.WriteLine("2 inteiros");
@@ -42,6 +46,12 @@ namespace TiposVarios
             Console.WriteLine(i);
             Console.WriteLine("");
             Console.WriteLine(j);
+            Console.WriteLine("");
+            Console.WriteLine(k);
+            Console.WriteLine("");
+            Console.WriteLine(l);
+            Console.WriteLine("");
+            Console.WriteLine(m);
             Console.WriteLine("");
             Console.WriteLine("Press Enter to close");
             Console.ReadKey();
