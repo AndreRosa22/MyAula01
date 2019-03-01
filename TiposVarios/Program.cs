@@ -15,7 +15,7 @@ namespace TiposVarios
             double f = -7;
             bool g = true;
             bool h = false;
-            string i = "Tab/t numa string normal";
+            string i = "Tab\t numa string normal";
             string j = @"C:\Users\Andre\Documents" + " <-string verbatin";
 
             //Imprime o valor da variavel a
