@@ -10,11 +10,16 @@ namespace OlaMundo
     {
         static void Main(string[] args)
         {
+            //Sou um comentario
             Console.WriteLine("Olá Mundo");
+            /*Sou
+             * um
+             * comentário
+             multi-linha */
             Console.WriteLine("");
-            Console.WriteLine("Bye World");
+            Console.WriteLine("Adeus Mundo");
             Console.WriteLine("");
-            Console.WriteLine("Press any key to close");
+            Console.WriteLine("Press Enter to close");
             Console.ReadKey();
         }
     }
