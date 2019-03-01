@@ -10,6 +10,12 @@ namespace OlaMundo
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Olá Mundo");
+            Console.WriteLine("");
+            Console.WriteLine("Bye World");
+            Console.WriteLine("");
+            Console.WriteLine("Press any key to close");
+            Console.ReadKey();
         }
     }
 }
